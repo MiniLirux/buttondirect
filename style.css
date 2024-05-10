@@ -1,0 +1,35 @@
+    /* Estilos generales de los botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent; /* Estilo inicial del contorno */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Estilo del botón de contorno rojo */
+.button.red-outline {
+  color: #ff4136; /* Color del texto */
+  border-color: #ff4136; /* Color del contorno */
+}
+
+/* Estilo del botón de contorno azul */
+.button.blue-outline {
+  color: #0074d9; /* Color del texto */
+  border-color: #0074d9; /* Color del contorno */
+}
+
+/* Estilo del botón de contorno de información */
+.button.yellow-outline {
+  color: #74d900; /* Color del texto */
+  border-color: #74d900; /* Color del contorno */
+}
+
+/* Estilo de hover para todos los botones */
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Color de fondo al pasar el mouse */
+}
